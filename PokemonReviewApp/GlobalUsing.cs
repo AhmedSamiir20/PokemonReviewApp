@@ -1,0 +1,25 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using PokemonReviewApp;
+global using PokemonReviewApp.Data;
+global using PokemonReviewApp.Models;
+global using PokemonReviewApp.Interfaces;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using PokemonReviewApp.Repository;
+global using AutoMapper;
+global using PokemonReviewApp.DTO;
+global using System.Runtime.Serialization.Formatters;
+global using Microsoft.AspNetCore.Identity;
+global using System.ComponentModel.DataAnnotations;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using PokemonReviewApp.Helper;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Text;
+global using System.ComponentModel;
+global using Microsoft.Extensions.Options;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using Microsoft.OpenApi.Models;
+global using Microsoft.AspNetCore.Authorization;
+
